@@ -49,10 +49,6 @@ int		convert_base1(unsigned long long nbr, int base)
 	return (i);
 }
 
-
-
-
-
 int	ft_putnbr(int n)
 {
 	unsigned int	nb;
@@ -87,8 +83,6 @@ char	*ft_strdup(const char *s)
 	dest[i] = '\0';
 	return (dest);
 }
-
-
 char	*convert_base(unsigned long long nbr, int base)
 {
 	int					i;
@@ -114,11 +108,6 @@ char	*convert_base(unsigned long long nbr, int base)
 	}
 	return (str);
 }
-
-
-
-
-
 int		ft_atoi(const char *str)
 {
 	unsigned int	num;
@@ -141,16 +130,12 @@ int		ft_atoi(const char *str)
 	}
 	return ((int)(np * num));
 }
-
-
 int		ft_isdigit(char c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);
 	return (0);
 }
-
-
 int		ft_treat_hexa(unsigned int nbr)
 {
 	int		char_count;
